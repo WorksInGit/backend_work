@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "513307927964",
+    "firebase_url": "https://backend-work-e5be8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "backend-work-e5be8",
+    "storage_bucket": "backend-work-e5be8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513307927964:android:db700cf79638d870f9d459",
+        "android_client_info": {
+          "package_name": "com.example.backend_work"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN1Vrlr9vX_HqTbrbPVd02tCOQ8_-h_1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

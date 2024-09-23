@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -18,38 +18,46 @@ class _HomePageState extends State<HomePage> {
       child: Scaffold(
         body: Column(
           children: [
-            150.verticalSpace,
+           SizedBox(
+            height: 150,
+           ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 50).r,
+              padding: const EdgeInsets.symmetric(horizontal: 50),
               child: TextFormField(
                 decoration: InputDecoration(
                     label: Text('Enter your name'),
                     border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(30.r).r)),
+                        borderRadius: BorderRadius.circular(30))),
               ),
             ),
-            20.verticalSpace,
+            SizedBox(
+            height: 29,
+           ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 50).r,
+              padding: const EdgeInsets.symmetric(horizontal: 50),
               child: TextFormField(
                 keyboardType: TextInputType.number,
                 maxLength: 10,
                 decoration: InputDecoration(
                     label: Text('Enter your phone no'),
                     border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(30.r).r)),
+                        borderRadius: BorderRadius.circular(30))),
               ),
             ),
-          Container(
-            width: 200.r,
-            height: 50.r,
-            decoration: BoxDecoration(
-              color: Colors.blue,
-              borderRadius: BorderRadius.circular(30).r
-            ),
-            child: ElevatedButton(
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
-              onPressed: (){}, child: Text('Login',style: TextStyle(color: Colors.white),)))
+            Container(
+                width: 200,
+                height: 50,
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(30)),
+                child: ElevatedButton(
+                    style:
+                        ElevatedButton.styleFrom(backgroundColor: Colors.blue),
+                    onPressed: () {},
+                    child: Text(
+                      'Login',
+                      style: TextStyle(color: Colors.white),
+                    )))
           ],
         ),
       ),

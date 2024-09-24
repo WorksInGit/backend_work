@@ -197,7 +197,7 @@ class _HomePageState extends State<HomePage> {
                               borderRadius: BorderRadius.circular(30.r)),
                           child: Icon(
                             Icons.edit_document,
-                            color: Colors.white,
+                            color: Colors.blue,
                           ),
                         ),
                       ),
@@ -216,7 +216,7 @@ class _HomePageState extends State<HomePage> {
                               borderRadius: BorderRadius.circular(30.r)),
                           child: Icon(
                             CupertinoIcons.delete_solid,
-                            color: Colors.white,
+                            color: Colors.red,
                           ),
                         ),
                       ),
